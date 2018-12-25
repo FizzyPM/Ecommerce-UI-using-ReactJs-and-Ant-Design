@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import "./App.css";
 import CategoryMain from './main-categories'
 import CategorySub from './sub-categories'
+import {Helmet} from 'react-helmet';
 
 class CategoriesModal extends Component {
 	constructor() {
@@ -26,6 +27,9 @@ class CategoriesModal extends Component {
 	render() {
 		return (
 			<div>
+				<Helmet>
+          <style>{'.ant-modal-body{background-color:#f2f2f2;}'}</style>
+        </Helmet>
 				<Modal
       		visible={this.props.isModalOpen}
           onCancel={this.onCancel}

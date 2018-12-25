@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Syncopate:700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 .App {
   text-align: center;
@@ -46,20 +49,31 @@
   height: auto;
 }
 .modallinks{
-  color:#000;
+  text-transform: uppercase;
+  font-family: Arial;
+  color: #282c34
+
 }
 .heading {
-  font-family: Arial;
   font-weight: bolder;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+#itemlist{
+  width : 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .img-responsive{
+  max-width: 100%;
   display: block;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
+  margin-left: auto;
+	margin-right: auto;
+  padding-top: 10px;
 }
 .itemcard{
   margin: auto;
+  box-shadow: 2px 3px 6px #d6d5d5;
 }
 .savebtn{
   border: 2px solid #fc5878 ;
@@ -71,9 +85,8 @@
   font-family: Montserrat , Arial;
   font-weight: bold ;
   font-size: 18px;
-  margin-top: -17px;
   float: left;
-  margin-left: -10px;
+  margin-top: 9px;
 }
 .savebtn:hover {
   color: #fff;
@@ -82,30 +95,80 @@
 .icon1{
   position: relative;
   float: right;
-  margin-top: -22px;
-  margin-right: 15px;
+  margin-right: 7px;
+  margin-top: 4px;
 }
 .icon2{
   position: relative;
   float: right;
-  margin-top: -17px;
+  margin-top: 9px;
+  margin-right: 5px;
 }
 .icondetails{
   font-size: 9px;
   font-weight: bold ;
-  float: right;
   position: relative;
-  margin-top: -18px;
   font-family: Arial;
+  float: right;
+  margin-top: -8px;
+
 }
 .icontext2{
-  margin-right: -4px;
+  margin-right: 4px;
 }
 .icontext1{
-  padding-right: 31px;
+  padding-right: 6px;
 }
-#itemlist{
-  width : 85%;
+#img-product{
+  max-width: 80%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#productimg-div{
+  float: left;
+  margin-top: -24px;
+  margin-left: -24px;
+  width: 55%;
+  box-shadow: 0px 3px 2px #cecece;
+}
+#prodetails-div{
+  float: right;
+  width: 45%;
+  margin-top: -15px;
+}
+#otherimgs-div{
+  width: 55%;
+  margin-left: -24px;
+  text-align: center;
+}
+.other-imgs{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: 2px 3px 1px #cecece;
+}
+.otherimgs-link :hover{
+  border: 1px solid #525252 ;
+}
+#prod-heading{
+  font-family: 'Ubuntu', sans-serif, Arial;
+  font-weight: 900;
+  color: black;
+}
+#prod-seller{
+  font-family: 'Ubuntu',sans-serif, Arial;
+  color: black;
+  font-size: 20px;
+  margin-top: -15px;
+}
+#prod-line{
+  color: #f5f5f5;
+  filter: blur(0.5px)
+}
+#prod-oldinr{
+  font-family: 'Ubuntu', sans-serif, Arial;
+  color: #bbbbbb;
+  font-size: 20px;
+  font-weight: normal; 
 }
