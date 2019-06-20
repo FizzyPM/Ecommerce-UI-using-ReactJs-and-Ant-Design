@@ -29,11 +29,11 @@ class ItemsListing extends Component {
   }
 	handleSave = (item) => {
 		console.log('something at backend will happen')
-		console.log(document.getElementById('save__' + item))
-		// document.getElementById('save__' + item).style.color = '#fff'
-		// document.getElementById('save__' + item).style.backgroundColor = '#f83159'
-		// document.getElementById('save__' + item).style.fontSize = '14px'
-		// document.getElementById('save__' + item).innerHTML = 'S A V E D'
+		// console.log(document.getElementById('save__' + item))
+		document.getElementById('save__' + item).style.color = '#fff'
+		document.getElementById('save__' + item).style.backgroundColor = '#f83159'
+		document.getElementById('save__' + item).style.fontSize = '14px'
+		document.getElementById('save__' + item).innerHTML = 'S A V E D'
 	}
 	showProductDetails = (e, item) => {
 		e.preventDefault()
@@ -130,11 +130,13 @@ class ItemsListing extends Component {
 							<a href="changepic/" onClick={(e) => this.changeImage(e,this.state.productId,'default')} className="otherimgs-link">
 								<img alt="" src={`./images/${this.state.productId}.jpg`} width="48px" height="50px" className="other-imgs" />
 							</a>
-							{eval('arrfor' + this.state.productId).map((image,i)=>
+							{ this.state.productId===6 ?
+							eval('arrfor' + this.state.productId).map((image,i)=>
 								<a href="changepic/" key={i} onClick={(e) => this.changeImage(e,this.state.productId,image)} className="otherimgs-link">
 									<img alt="" src={`./images/item-${this.state.productId}/${image}.jpg`} width="48px" height="50px" key={i} className="other-imgs"/>
 								</a>
-							)}
+							)
+							:<div></div> }
 						</div>
 							<div id="prod-menu-div">
 							<Menu

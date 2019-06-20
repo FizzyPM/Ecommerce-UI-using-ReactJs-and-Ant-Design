@@ -184,54 +184,54 @@
   height: 50px;
 }
 #size-btn{
-  border: 1px solid #91ff7b ;
+  border: 1px solid #fc5878 ;
   border-radius: 0px;
-  color: #7dff62  ;
+  color: #f83159  ;
   font-weight: bold;
 }
 #size-btn:hover {
   color: #fff;
-  background-color: #7dff62;
+  background-color: #f83159;
 }
 #qty-btn{
-  border: 1px solid #00e1ff ;
+  border: 1px solid #fc5878 ;
   border-radius: 0px;
-  color: #00bbab  ;
+  color: #f83159  ;
   font-weight: bold;
 }
 #qty-btn:hover {
   color: #fff;
-  background-color: #00bbab;
+  background-color: #f83159;
 }
 #cart-btn{
-  border: 1px solid #e07aff ;
+  border: 1px solid #fc5878 ;
   border-radius: 0px;
-  color: #c300ff  ;
+  color: #f83159  ;
   font-weight: bold;
 }
 #cart-btn:hover {
   color: #fff;
-  background-color: #c300ff;
+  background-color: #f83159;
 }
 #save-btn{
-  border: 1px solid #fa5d52 ;
+  border: 1px solid #fc5878 ;
   border-radius: 0px;
-  color: #e03232  ;
+  color: #f83159  ;
   font-weight: bold;
 }
 #save-btn:hover {
   color: #fff;
-  background-color: #e03232;
+  background-color: #f83159;
 }
 #repost-btn{
-  border: 1px solid #f1d349 ;
+  border: 1px solid #fc5878 ;
   border-radius: 0px;
-  color: #ffd416  ;
+  color: #f83159  ;
   font-weight: bold;
 }
 #repost-btn:hover {
   color: #fff;
-  background-color: #f1d349;
+  background-color: #f83159;
 }
 #prod-share-div{
   text-align: center;
